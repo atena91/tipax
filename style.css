@@ -1,0 +1,281 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+} */
+
+@font-face {
+    font-family: "Vazir";
+    src: url(font/vazir-font-v16.1.0/Vazir.eot);
+    src: url(font/vazir-font-v16.1.0/Vazir.woff2) format("woff2"),
+        url(font/vazir-font-v16.1.0/Vazir.woff) format("woff"),
+        url(font/vazir-font-v16.1.0/Vazir.ttf) format("truetype");
+}
+
+
+main {
+    font-family: Vazir;
+
+    .bobo {
+
+        transform: rotate(90deg) scale(3);
+
+        border: none;
+        background-color: inherit;
+        color: white;
+        margin-top: 20px;
+
+
+
+    }
+
+    .MOMO {
+        margin-right: 50px;
+        margin-left: 10px;
+    }
+
+
+    .w-25 {
+        z-index: 2000px;
+    }
+
+    .kale {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .dok {
+        border: none;
+        margin-left: 130px;
+        margin-bottom: 40px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .logo {
+        width: 150px;
+        height: px;
+    }
+
+    .img {
+        width: 100px;
+    }
+
+    .baba {
+        display: flex;
+        align-items: center;
+    }
+
+    .mama {
+        display: flex;
+        align-items: center;
+    }
+
+    .jp {
+        cursor: pointer;
+    }
+
+    .taga {
+        margin-left: 8px;
+    }
+
+    .lili {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form {
+        transform: scale(2);
+    }
+
+    .didi {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rang {
+        background-color: rgb(216 242 225);
+    }
+
+    .div-1 {
+        width: 140px;
+        height: 140px;
+        padding: 30px;
+
+    }
+
+    .width-img {
+        width: 300px;
+    }
+
+
+    .gher {
+        gap: 40px;
+    }
+
+    .kochak {
+        width: 120px;
+    }
+
+    .film {
+        border-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .tag {
+        height: 20px;
+    }
+
+    .button {
+        padding: 10px 20px;
+        background-color: #198754;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 10px;
+        ;
+        margin: top 10px;
+        ;
+    }
+
+    .button1 {
+        padding: 10px 20px;
+        border: black;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+
+}
+
+.hover .card:hover {
+    background-color: #000080;
+    color: #fff;
+}
+
+.hover .card .card-body .i:hover {
+    color: #fce205;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* ستون */
+}
+
+.box {
+
+    padding: 20px;
+    margin: 0;
+    /* بدون فاصله */
+    box-shadow: 20px 20px 100px rgba(0, 0, 0, 0.3);
+
+}
+
+.boxgreen {
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.matn {
+    font-size: 15px;
+}
+
+
+.matn1 {
+    font-size: 10px;
+}
+
+.zindex {
+    position: absolute;
+    right: 35%;
+    border-radius: 50px;
+    z-index: 1000;
+}
+
+.saye {
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    border: 0.5px solid black;
+    border-radius: 20px;
+}
+
+.h1 {
+    font-size: 70px;
+}
+.text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom:2px solid white ;
+}
+@media screen and (max-width:768px) {
+    main {
+        >header {
+            div {
+                &:first-of-type {}
+
+                &:last-of-type {
+                    >button {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        >section {
+            &:nth-of-type(1) {}
+
+            &:nth-of-type(2) {}
+        }
+    }
+
+
+
+
+
+}
+
+/* @media screen and (min-width:768px) {
+    main {
+        >header {
+            div {
+                &:first-of-type {}
+
+                &:last-of-type {
+                    >button{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        >section {
+            &:nth-of-type(1) {}
+
+            &:nth-of-type(2) {}
+        }
+    }
+
+
+
+
+
+} */
